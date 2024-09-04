@@ -1,0 +1,42 @@
+🌎🧬 Problema do Caixeiro Viajante usando Algoritmos Genéticos
+Gabriel de Paula Meira - 222050003
+O Problema do Caixeiro Viajante (TSP) consiste em encontrar a rota mais curta que permita a um viajante visitar todas as cidades exatamente uma vez e retornar ao ponto de partida.
+ 
+🧠 Algoritmo
+Como o problema do Caixeiro Viajante não possui um algoritmo determinístico conhecido que resolve o problema em tempo polinomial, uma abordagem comum é utilizar heurísticas para encontrar uma solução aproximada.
+Neste trabalho, utilizamos algoritmos genéticos, que são técnicas de otimização inspiradas na seleção natural. Esses algoritmos utilizam operadores genéticos, como seleção, cruzamento e mutação, para encontrar soluções aproximadas em problemas complexos de busca e otimização.
+ 
+🖥 Rodando o programa
+> Ver main.py <
+> Ver graph.py <
+> Ver genetic_algorithm.py <
+> Ver graph.txt <
+Para rodar o programa, certifique-se de que o Python e a biblioteca numpy estão instalados. Você pode instalar a biblioteca necessária com o seguinte comando:
+bash
+Copiar código
+pip install numpy
+
+Em seguida, execute o script principal com:
+bash
+Copiar código
+python main.py
+
+ 
+🧪 Testes de Execução
+A entrada do programa é um arquivo de texto contendo a matriz de adjacências do grafo a ser analisado. O formato esperado é uma matriz onde cada linha representa as distâncias entre os vértices, e a diagonal principal deve conter apenas zeros.
+Exemplo de Arquivo graph.txt
+txt
+Copiar código
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+
+Saída
+A saída será impressa no terminal e inclui o melhor caminho encontrado pelo algoritmo e a distância total desse caminho. A primeira linha contém a distância total da melhor solução encontrada, seguida pela representação do caminho com os índices dos vértices conectados por ->.
+txt
+Copiar código
+Melhor caminho encontrado: [1, 3, 2, 0]
+Distância do melhor caminho: 80
+
+O exemplo acima assume que o arquivo de entrada é graph.txt e o caminho e distância podem variar dependendo do grafo fornecido e das configurações do algoritmo.
