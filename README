@@ -1,12 +1,12 @@
-🌎🧬 Problema do Caixeiro Viajante usando Algoritmos Genéticos
-Breno Esteves dos Santos - 222050055
+Problema do Caixeiro Viajante usando Algoritmos Genéticos
+Breno Esteves dos Santos- 222050055
 O Problema do Caixeiro Viajante (TSP) consiste em encontrar a rota mais curta que permita a um viajante visitar todas as cidades exatamente uma vez e retornar ao ponto de partida.
  
-🧠 Algoritmo
+Algoritmo
 Como o problema do Caixeiro Viajante não possui um algoritmo determinístico conhecido que resolve o problema em tempo polinomial, uma abordagem comum é utilizar heurísticas para encontrar uma solução aproximada.
 Neste trabalho, utilizamos algoritmos genéticos, que são técnicas de otimização inspiradas na seleção natural. Esses algoritmos utilizam operadores genéticos, como seleção, cruzamento e mutação, para encontrar soluções aproximadas em problemas complexos de busca e otimização.
  
-🖥 Rodando o programa
+Rodando o programa
 > Ver main.py <
 > Ver graph.py <
 > Ver genetic_algorithm.py <
@@ -22,7 +22,7 @@ Copiar código
 python main.py
 
  
-🧪 Testes de Execução
+Testes de Execução
 A entrada do programa é um arquivo de texto contendo a matriz de adjacências do grafo a ser analisado. O formato esperado é uma matriz onde cada linha representa as distâncias entre os vértices, e a diagonal principal deve conter apenas zeros.
 Exemplo de Arquivo graph.txt
 txt
@@ -40,3 +40,4 @@ Melhor caminho encontrado: [1, 3, 2, 0]
 Distância do melhor caminho: 80
 
 O exemplo acima assume que o arquivo de entrada é graph.txt e o caminho e distância podem variar dependendo do grafo fornecido e das configurações do algoritmo.
+
